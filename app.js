@@ -16,6 +16,7 @@ function computer() {
   const ele = choices[randomNumber()];
   cImg.src = `image/${ele}.png`;
   cImg.id = ele;
+  cImg.style.transform = "scaleX(-1)";
   cChoice.innerHTML = ele;
 }
 
